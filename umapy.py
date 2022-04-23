@@ -1,17 +1,12 @@
 import sys
 
-
-from sklearn.datasets import fetch_openml
-import numpy as np
 import matplotlib.pyplot as plt
-import umap  # pip install umap-learn
-import Utils
+import numpy as np
 import pandas as pd
+import umap  # pip install umap-learn
+from sklearn.datasets import fetch_openml
 
-
-
-
-
+import Utils
 
 
 def main():

@@ -7,7 +7,7 @@ from sklearn.manifold import TSNE
 
 import pandas as pd
 import seaborn as sns
-import utils
+import Utils
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
     # Load the MNIST data
     # X, y = fetch_openml('mnist_784', version=1, return_X_y=True, as_frame = False)
 
-    X, y = utils.read_data()  # cancer data
+    X, y = Utils.read_data()  # cancer data
 
     # randomly select 800 samples from dataset
     np.random.seed(100)
